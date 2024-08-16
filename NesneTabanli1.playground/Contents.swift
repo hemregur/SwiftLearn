@@ -42,4 +42,19 @@ let f = fonksiyonlar()
 
 //f.selamla1(isminiz: "EMre")
 let topla = f.toplama(sayi1: 24, sayi2: 24)
-print(topla)
+//print(topla)
+
+
+// Statik değişkenler ve metodlar
+
+class ASinifi{
+    var sayi = 10
+    
+    func metod(){
+        print("Metod çalıştı.")
+    }
+}
+
+var calistir = ASinifi()
+
+print(calistir.metod())
